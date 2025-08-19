@@ -9,11 +9,12 @@ New-Item hello_world.txt
 Step3. 「hello_world.txt」に2回の変更をコミットする
 Add-Content hello_world.txt "Hello, world!"
 git add hello_world.txt
-git commit -m "1回目のコミットメッセージ"
+git commit -m "Hello, world!を追加"
 
 Add-Content hello_world.txt "こんにちは、世界！"
 git add hello_world.txt
-git commit -m　"2回目のコミットメッセージ"
+git commit -m "日本語訳を追記"
 
 Step4. 「hello_world.txt」の変更履歴を表示する
-git log
+git log --oneline
+
