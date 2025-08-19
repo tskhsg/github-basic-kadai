@@ -6,7 +6,6 @@ git init
 Step2. テキストファイル「hello_world.txt」を作成する
 New-Item hello_world.txt
 
-
 Step3. 「hello_world.txt」に2回の変更をコミットする
 Add-Content hello_world.txt "Hello, world!"
 git add hello_world.txt
