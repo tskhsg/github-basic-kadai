@@ -1,0 +1,20 @@
+Step1. ローカルリポジトリ「git_challenge」を作成する
+mkdir git_challenge
+cd git_challenge
+git init
+
+Step2. テキストファイル「hello_world.txt」を作成する
+New-Item hello_world.txt
+
+
+Step3. 「hello_world.txt」に2回の変更をコミットする
+Add-Content file.txt "Hello, world!"
+git add hello_world.txt
+git commit -m
+
+Add-Content file.txt "こんにちは、世界！"
+git add hello_world.txt
+git commit -m
+
+Step4. 「hello_world.txt」の変更履歴を表示する
+git status
